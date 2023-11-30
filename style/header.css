@@ -2,8 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 30px;
+    padding: 10px 30px;
     flex-direction: row;
+    width: 100vw;
 }
 
 .cabecalho__valknut {
@@ -14,14 +15,15 @@
 .cabecalho__links {
     display: flex;
     gap: 40px;
-    margin-right: 20px;
+    margin-right: 50px;
+    align-items: baseline;
 }
 
 .cabecalho__links__item {
     text-decoration: none;
     color: var(--cor-destaque);
     font-size: 1.25em;
-    padding: 15px;
+    padding: 5px 15px;
     font-weight: 500;
     position: relative;
 }
@@ -45,6 +47,7 @@
     border: 1px solid var(--cor-destaque);
     border-radius: 15px;
     transition: all .5s ease;
+    padding: 10px;
 }
 
 .cabecalho__links__item-curriculo::before {
