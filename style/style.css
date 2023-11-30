@@ -1,0 +1,37 @@
+@import url('header.css');
+@import url('sobremim.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+:root {
+    --branco: #ffffff;
+    --cor-destaque: #00f0ff;
+    --cor-principal: #8790af;
+    
+    --fonte-principal: 'Montserrat', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--cor-destaque);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+body {
+    background-image: linear-gradient(to bottom, #020B2D, #1F4D6D);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: var(--fonte-principal);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

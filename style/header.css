@@ -1,0 +1,57 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    flex-direction: row;
+}
+
+.cabecalho__valknut {
+    width: 60px;
+    margin-left: 10px;
+}
+
+.cabecalho__links {
+    display: flex;
+    gap: 40px;
+    margin-right: 20px;
+}
+
+.cabecalho__links__item {
+    text-decoration: none;
+    color: var(--cor-destaque);
+    font-size: 1.25em;
+    padding: 15px;
+    font-weight: 500;
+    position: relative;
+}
+
+.cabecalho__links__item::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1px;
+    background-color: var(--cor-destaque);
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+.cabecalho__links__item:hover::before {
+    width: 100%;
+}
+
+.cabecalho__links__item-curriculo {
+    border: 1px solid var(--cor-destaque);
+    border-radius: 15px;
+    transition: all .5s ease;
+}
+
+.cabecalho__links__item-curriculo::before {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.cabecalho__links__item-curriculo:hover {
+    background-color: var(--cor-destaque);
+    color: #020B2D;
+}

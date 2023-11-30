@@ -1,0 +1,17 @@
+.container {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.container__imagem {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 100px;
+}
+
+.container__descricao {
+    width: 50%;
+}
