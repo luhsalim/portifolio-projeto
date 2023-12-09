@@ -7,6 +7,7 @@
     width: 100vw;
     position: relative;
     top: 0;
+    box-sizing: border-box;
 }
 
 .cabecalho__valknut {

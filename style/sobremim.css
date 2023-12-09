@@ -1,22 +1,28 @@
 .container {
     width: 80vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin: 0;
     padding: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .container__imagem {
     width: 35%;
     box-sizing: border-box;
     padding: 10px;
-    border: 4px solid var(--cor-destaque);
+    border: 2px solid var(--cor-destaque);
     border-radius: 10px;
+    margin-right: 50px;
 }
 
 .container__descricao {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .container__descricao__span {

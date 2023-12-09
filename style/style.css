@@ -2,6 +2,12 @@
 @import url('sobremim.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --branco: #ffffff;
     --cor-destaque: #00f0ff;
@@ -33,6 +39,5 @@ body {
     font-family: var(--fonte-principal);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
