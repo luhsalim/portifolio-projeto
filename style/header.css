@@ -5,6 +5,8 @@
     padding: 10px 30px;
     flex-direction: row;
     width: 100vw;
+    position: relative;
+    top: 0;
 }
 
 .cabecalho__valknut {
